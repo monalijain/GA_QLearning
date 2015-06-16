@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
         walkforwardStartDate = walkforwardStartDate + timedelta(days=1)
 
-    print mtm
+    #print mtm
     date_count_range=31
     num_days_DD=[]
     DD_History=[]
@@ -101,7 +101,7 @@ if __name__ == "__main__":
         if(DD_Daily_Value<total_DD):
             total_DD=DD_Daily_Value
 
-    print total_DD, "total_DD", "2 days"
+    #print total_DD, "total_DD", "2 days"
 
 
     Gain_History=[]
@@ -122,7 +122,7 @@ if __name__ == "__main__":
         if(Gain_Daily_Value>total_Gain):
             total_Gain=Gain_Daily_Value
 
-    print total_Gain,"total_gain", "2 days"
+    #print total_Gain,"total_gain", "2 days"
 
     print Gain_History
 
